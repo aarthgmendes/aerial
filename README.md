@@ -1,5 +1,5 @@
 # Fly without any limit! 🚀
-![image](https://github.com/GeorgeWanderson/georgewanderson.github.io/blob/main/areial.png)
+![image](https://github.com/aarthgmendes/aerial/blob/master/resources/img/areial.png)
 
 # ABOUT US:
 We are a global rocket airline, bringing different people, places and cultures together for over 100 years. 
