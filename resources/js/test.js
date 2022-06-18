@@ -1,0 +1,1 @@
+alert('Opa :V tá na hora de arrumar essa responsividade aí hein')
