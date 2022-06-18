@@ -8,6 +8,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 body {
     font-size: 100%;
     background: rgb(172,78,27);
@@ -73,8 +74,8 @@ body {
 }
 
 .main-rocket {
-    width: 50vw;
-    height: 55vw;
+    width: 40vw;
+    height: 37vw;
 }
 
 .main-content {
@@ -138,8 +139,5 @@ body {
     background-color: #f59a67;
     transform: scale(1.20);
     transition: 1s;
-}
-.login-content {
-    
 }
 

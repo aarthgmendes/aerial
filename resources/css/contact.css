@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(172,78,27);
+    background: linear-gradient(90deg, rgba(172,78,27,1) 4%, rgba(28,26,24,1) 92%);
+}
+
+.main-header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+}
+
+.left-menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: 60px;
+    margin: 15px;
+}
+
+.logo-name {
+    font-family: 'Righteous', cursive, sans-serif;
+    text-transform: lowercase;
+    font-size: 2em;
+    font-weight: 300;
+    text-shadow: 7px 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.nav-menu {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin-right: 40px;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(238, 232, 232);
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s;
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 0.1);
+}
+
+.menu-item:hover {
+    transform: scale(0.80);
+    transition: 1s;
+    background-color: rgba(192,69,3,255);
+}
+
+.content {
+    border-top: 0.3px solid rgb(172, 172, 172);
+}
